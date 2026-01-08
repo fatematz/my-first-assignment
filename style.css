@@ -204,14 +204,15 @@ a {
     margin-top: 45.5px;
 }
 
-.box h3{
-    font-size:24px ;
-    font-weight:600 ;
+.box h3 {
+    font-size: 24px;
+    font-weight: 600;
     color: #001931;
     margin: 16px 0;
+    text-transform: capitalize;
 }
 
-.box p{
+.box p {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -220,6 +221,59 @@ a {
 
 
 /* Second-Brain-Section-start */
+
+.second-brain-section {
+    position: relative;
+    height: 840px;
+    background-color: #FFFFFF;
+    padding: 120px 0;
+    margin-top: -35px;
+}
+
+.second-brain-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+}
+
+.second-brain-img img {
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+
+.second-content h6 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #30B868;
+}
+
+.second-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: #001931;
+    margin: 16px 0;
+}
+
+.second-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+    color: #627382;
+}
+
+.menu-list li{
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #000000;
+}
+
+
 /* Second-Brain-Section-end */
 
 
