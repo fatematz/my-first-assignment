@@ -89,7 +89,10 @@ a {
 
 .banner-section {
     background-image: url(assets/hero-bg.png);
+    /* background-repeat: no-repeat; */
+    /* background-position: content; */
     height: 674px;
+    /* width: 1905px; */
     text-align: center;
     padding-top: 115.5px;
     padding-bottom: 179.5px;
@@ -174,7 +177,6 @@ a {
 .boxes {
     display: flex;
     justify-content: space-between;
-    /* gap: 16px; */
 }
 
 .boxes .box {
@@ -279,6 +281,41 @@ a {
 
 
 /* Early-Access-Section-start */
+
+.early-access-content{
+    height: 384px;
+    background-color:#F7F6F2 ;
+    padding: 80px 0 ;
+    text-align: center;
+    margin-bottom: 120px;
+    border-radius: 12px;
+}
+
+.early-access-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.early-access-content p{
+font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.www{
+    width: 194px;
+    height: 52px;
+}
+
+.mmm .ppp{
+font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
 /* Early-Access-Section-end */
 
 
