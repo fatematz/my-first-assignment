@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* share style  */
+
+body {
+    font-family: "Inter";
+    font-optical-sizing: auto;
+}
+
+.container{
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight:600 ;
+}
+
+.bg-col{
+    background-color: #30B868;
+}
+
+
+/* main style  */
+
+/* navbar-section-start  */
+
+.navbar-section{
+    height: 92px;
+    background-color: white;
+    padding: 16px 0 16px;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width:139px ;
+    height:60px ;
+}
+
+.menu ul{
+    display: flex;
+    gap: 32px;
+}
+
+.menu ul li a{
+    color: black;
+    font-size: 16px;
+        font-weight: 600;
+}
+
+.nav-btn {
+    width: 164px;
+    height: 44px;
+}
+
+/* navbar-section-end  */
+
+
+/* Banner Section-start  */
+/* Banner Section-end  */
+
+
+/* Notes-Section-start */
+/* Notes-Section-end */
+
+
+/* Second-Brain-Section-start */
+/* Second-Brain-Section-end */
+
+
+
+/* Early-Access-Section-start */
+/* Early-Access-Section-end */
+
+
+
+/* Footer-Section-start */
+/* Footer-Section-end */
