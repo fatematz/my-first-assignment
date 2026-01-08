@@ -10,29 +10,29 @@ body {
     font-optical-sizing: auto;
 }
 
-.container{
+.container {
     max-width: 1360px;
     width: 100%;
     margin: 0 auto;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.btn{
+.btn {
     border: none;
     border-radius: 4px;
     color: white;
     font-size: 16px;
-    font-weight:600 ;
+    font-weight: 600;
 }
 
-.bg-col{
+.bg-col {
     background-color: #30B868;
 }
 
@@ -41,32 +41,32 @@ a{
 
 /* navbar-section-start  */
 
-.navbar-section{
+.navbar-section {
     height: 92px;
     background-color: white;
     padding: 16px 0 16px;
 }
 
-.nav-content{
+.nav-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo img{
-    width:139px ;
-    height:60px ;
+.logo img {
+    width: 139px;
+    height: 60px;
 }
 
-.menu ul{
+.menu ul {
     display: flex;
     gap: 32px;
 }
 
-.menu ul li a{
+.menu ul li a {
     color: black;
     font-size: 16px;
-        font-weight: 600;
+    font-weight: 600;
 }
 
 .nav-btn {
@@ -74,10 +74,78 @@ a{
     height: 44px;
 }
 
+.ml-8 {
+    margin-left: 8px;
+}
+
+.mr-8 {
+    margin-right: 8px;
+}
+
 /* navbar-section-end  */
 
 
 /* Banner Section-start  */
+
+.banner-section {
+    background-image: url(assets/hero-bg.png);
+    height: 674px;
+    text-align: center;
+    padding-top: 115.5px;
+    padding-bottom: 179.5px;
+}
+
+.btn-access-now {
+    width: 229px;
+    /* height: 35px; */
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    padding: 9px 0 8px 0;
+    border-radius: 100px;
+    border: none;
+}
+
+.banner-content h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin: 16px 0;
+}
+
+.banner-content .h1-col {
+    color: #30B868;
+}
+
+.banner-content p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.two-button {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.banner-btn-2 {
+    width: 252px;
+    height: 52px;
+}
+
+.banner-btn-3 {
+    width: 198px;
+    height: 52px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
+
+
 /* Banner Section-end  */
 
 
