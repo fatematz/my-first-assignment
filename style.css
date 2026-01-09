@@ -30,12 +30,13 @@ a {
     color: white;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
     background-color: black;
     color: white;
-    transition: background-color 0.3s ease;
 }
 
 .bg-col {
@@ -95,13 +96,12 @@ a {
 
 .banner-section {
     background-image: url(assets/hero-bg.png);
-    /* background-repeat: no-repeat; */
-    /* background-position: content; */
+    background-repeat: no-repeat;
     height: 674px;
-    /* width: 1905px; */
     text-align: center;
     padding-top: 115.5px;
     padding-bottom: 179.5px;
+    background-size: cover;
 }
 
 .btn-access-now {
@@ -166,7 +166,7 @@ a {
 /* Notes-Section-start */
 
 .notes-section {
-    background-color: #FFFFFF;
+    background-color: #fbfbfb;
     text-align: center;
     padding-top: 60px;
 }
@@ -256,6 +256,10 @@ a {
     border-radius: 12px;
 }
 
+.second-brain-content .second-content {
+    flex: 1;
+}
+
 .second-content h6 {
     font-size: 16px;
     font-weight: 500;
@@ -278,6 +282,7 @@ a {
     line-height: 20px;
     margin-bottom: 40px;
     color: #627382;
+    max-width: 467px;
 }
 
 .menu-list li {
@@ -332,13 +337,12 @@ a {
 
 
 /* Footer-Section-start */
-
-
 .footer-section {
-    background-color: #000000;
+    background-color: #001931;
     padding-top: 120px;
     padding-bottom: 30px;
 }
+
 .ww88 {
     display: flex;
     justify-content: space-between;
@@ -362,6 +366,7 @@ a {
 .menu-flex {
     display: flex;
     gap: 16px;
+    text-align: center;
 }
 
 .menu-flex li {
@@ -370,15 +375,15 @@ a {
     border-radius: 50%;
     color: black;
     background-color: #FFFFFF;
-    padding: 3px;
 }
 
 hr {
     width: 100%;
     margin-bottom: 30px;
     height: 1px;
-    background: rgb(158, 157, 157);
+    background: rgba(229, 231, 235, 1);
     border: none;
+    opacity: 0.2;
 }
 
 .footer-content p {
